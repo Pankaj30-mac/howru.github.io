@@ -1,5 +1,6 @@
 <html style="transform-box: view-box;margin: 0;background: #000000;page-break-inside: avoid;size: revert;background-blend-mode: screen;-webkit-user-modify: read-only;padding: 0;"><head>
 	<title></title>
+    <head>
 <style type="text/css" media="screen">
 	* {
 
@@ -16,11 +17,67 @@
            background :#ff2ec8;
            mix-blend-mode: color-burn;
        }
+br {
+    background:black ;
+    border-radius:6px ;
+border: 2px 2px solid #000000;
+}
+#h1 {
+    outline-width: 10px;
+    outline-color: #2dca0e;
+    background-color: #ca0e0e;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+}
+#input1 {
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 2px solid #00d335;
+    outline-color: #3066e1;
+    outline-width: 2px;
+    word-break:keep-all
+}
+.field {
+    outline-style: solid;
+    outline-width: 5px ;
+    outline-color: #00d335;
+    border: 10px solid rgba(255, 0, 0, 0.568);
+    width: 500;
+    background-color: rgb(14, 224, 214)
+}
+.btn1 {
+    color: #00d335;
+    background-color:rgb(255, 0, 0)
+
+}
+.rest {
+    background: red ;
+    transition-delay: 2s;
+
+}
+.copy {
+    background: #00d335;
+    border: 2px dashed rgb(236, 0, 0);
+    outline: 5px solid green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 </style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<h3 style="
+	<h3 id="h1" style="
     width: 500px;
     background: black;
     font-size: 1pc;
@@ -31,7 +88,7 @@
 		<form action="indexx.html" target="_blank" method="get" accept-charset="utf-8">
 
 			<div class="field">
-				<label for="text" style="
+				<label for="text" id="label1" style="
     background: black;
     font-size: 3pc;
     color: aliceblue;
@@ -39,18 +96,18 @@
 <select name="Select" id=""></select>
 			<option value="Eng"></option>	<br>
 			
-				<button><input type="text" name="Name" value="" placeholder="Person" maxlength="10" required="" minlength="6" style="
+				<button id="btn1"><input id="input1" type="text" name="Name" value="" placeholder="Person" maxlength="10" required="" minlength="6" style="
     font-size: 2pc;
     background: white;
     color: #6f2893;
-    "></button><input type="reset" style="
+    "></button><input class="rest" type="reset" style="
     font-size: 20px;
     background: #fbcc8d;
 ">
 				<div class="field" style="
     font-size: 3pc;
 ">
-					<label for="" style="
+					<label class="label" for="" style="
     background: black;
     /* background: bottom; */
     font-size: 2pc;
@@ -64,7 +121,7 @@
 ">
 				
 					<div class="btn-layer">
-<button><input type="submit" name="Submit" value="Continue Instagram" style="
+<button><input class="btn1" type="submit" name="Submit" value="Continue Instagram" style="
     background: black;
     font-size: 2pc;
     color: #bfffff;
@@ -76,7 +133,7 @@
 
 	</div>
 
-<h6 style="
+<h6 class="copyright" style="
 mix-blend-mode: difference;
     width: 500px;
     font-weight: 900;
@@ -84,23 +141,6 @@ mix-blend-mode: difference;
     background: #01319b;
     color: aliceblue;
 "> WEBSITE COPYRIGHT :UNDER SECTION 2007 THIS WEBSITE ONLY for FAIR USE This Website is 100% Secure</h6>
-
-<video width="" height="" allow="autoplay" autoplay="" style="
-    background: #ff1414;
-    mix-blend-mode: overlay;
-    margin: 12vh;
-    background-size: cover;
-    border: azure;
-    border-left: blanchedalmond;
-    font-family: -webkit-body;
-    /* -webkit-user-modify: read-only; */
-    -webkit-user-modify: read-write;
-    width: 500px;
-    height: 500px;
-" controls="">
-	<source src="pasand.mp4" type="video/mp4" allow="autoplay">
-</video>
-
 <h2 style="
     text-orientation: inherit;
     mix-blend-mode: color-burn;
